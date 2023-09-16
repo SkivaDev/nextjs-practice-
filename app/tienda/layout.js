@@ -1,6 +1,12 @@
 import React from 'react'
 import Link from 'next/link'
 
+export const metadata = {
+  title: 'Mi tiendita con Next.js - Tienda',
+  description: 'Esta es la pagina de inicio de mi tiendita con Next.js',
+  keywords: 'tienda, next.js, ecommerce, react, javascript',
+}
+
 function TiendaLayout({ children }) {
   return (
     <>
