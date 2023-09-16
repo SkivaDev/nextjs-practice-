@@ -1,4 +1,5 @@
-import PostCard from '@/components/PostCard';
+// import PostCard from '../../components/PostCard'; //Usando Import Relativo
+import PostCard from '@/components/PostCard'; //Usando Import Alias (Forma de NextJS)
 import React from 'react'
 
 const loadPosts = async () => {
