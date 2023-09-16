@@ -1,3 +1,4 @@
+import Users from '@/components/Users'
 import React from 'react'
 
 export const metadata = {
@@ -6,7 +7,10 @@ export const metadata = {
 
 function page() {
   return (
-    <div>About Skiva</div>
+    <div>
+      <h2>About Skiva</h2>
+      <Users />
+    </div>
   )
 }
 
