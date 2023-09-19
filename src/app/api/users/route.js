@@ -9,7 +9,11 @@ export async function GET() {
   return NextResponse.json(users);
 }
 
-export function POST() {
+export async function POST(request) {
+
+  const {nombre, apellido, edad} = await request.json();
+  console.log(nombre, apellido, edad)
+
   return NextResponse.json({
     message: "User created",
   });
